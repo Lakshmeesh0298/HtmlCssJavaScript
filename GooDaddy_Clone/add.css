@@ -1,0 +1,255 @@
+/* domain part */
+/* .secDomain{ 
+    width: 98%;
+    background-color: white;
+    margin: 0 auto;
+    height: 350px;
+    border-top: 1px solid black;
+    z-index: 1;
+    position: absolute;
+    opacity: 0;
+    top: 13%;
+    overflow: visible;
+}
+
+.artDomain{
+width: 100%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 350px;
+}
+.domianDiv1{
+width: 30%;
+/* background-color: bisque; 
+height: 300px;
+}
+.domianDiv1 li{
+list-style: none;
+/* line-height: 10px; 
+padding: 5px;
+font-size: 14px;
+}
+.domianDiv1 li:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+.domainDiv2{
+width: 25%;
+/* background-color: cadetblue; 
+padding: 10px;
+
+}
+.domainDiv2:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+.domainDiv2 img{
+width: 300px;
+height: 250px;
+position: relative;
+top: -10px;
+}
+.domainDiv2 h4{
+position: relative;
+top: 20px;
+}*/
+/* hosting part */
+.hosting1{
+    width: 98%;
+    background-color: rgb(22, 186, 236);
+    margin: 0 auto;
+    height: 350px;
+    border-top: 1px solid black;
+    z-index:-1;
+    position: absolute;
+    /* opacity: 0; */
+    top: 13%;
+    overflow: hidden;
+}
+
+.arthosting{
+width: 95%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 350px;
+}
+.hostingDiv1{
+width: 25%;
+/* background-color: bisque; */
+height: 300px;
+}
+.hostingDiv1 li{
+list-style: none;
+/* line-height: 10px; */
+padding: 5px;
+font-size: 14px;
+width:80% ;
+}
+.hostingDiv1 li:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+.hostingDiv2{
+width: 30%;
+/* background-color: cadetblue; */
+padding: 10px;
+
+}
+.hostingDiv2:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+.hostingDiv2 img{
+width: 300px;
+height: 250px;
+position: relative;
+top: 20px;
+}
+.hostingDiv2 h4{
+position: relative;
+top: 20px;
+}
+/* security and email */
+.secDomain{
+    width: 98%;
+    background-color: white;
+    margin: 0 auto;
+    height: 350px;
+    border-top: 1px solid black;
+    /* z-index: 1; */
+    /* position: absolute; */
+    /* opacity: 0; */
+    top: 13%;
+    /* overflow: visible; */
+}
+
+.artDomain{
+width: 100%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 350px;
+}
+.domianDiv1{
+width: 40%;
+/* background-color: bisque; */
+height: 300px;
+display: flex;
+justify-content: space-between;
+}
+.domianDiv1 li{
+list-style: none;
+/* line-height: 10px; */
+padding: 5px;
+font-size: 14px;
+}
+.domianDiv1a{
+    width: 70%;
+    /* background-color: bisque; */
+    height: 300px;
+    /* display: flex;
+    justify-content: space-between; */
+    }
+    .domianDiv1a li{
+    list-style: none;
+    /* line-height: 10px; */
+    padding: 5px;
+    font-size: 14px;
+    }
+.domianDiv1 li:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+.domainDiv2{
+width: 30%;
+/* background-color: cadetblue; */
+padding: 10px;
+
+}
+.domainDiv2:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+.domainDiv2 img{
+width: 300px;
+height: 240px;
+position: relative;
+top: -10px;
+padding: 10px;
+}
+.domainDiv2 h4{
+position: relative;
+top: 20px;
+font-size: 14px;
+}
+
+/* for web */
+.forwebsec{
+    width: 98%;
+    height: 200px;
+    /* background-color: aqua; */
+}
+.forwebart{
+    width: 70%;
+    /* margin: 0 auto; */
+    padding: 10px;
+}
+
+/* number drop down */
+
+.number_dropdown{
+    width: 100%;
+    height: 320px;
+    top:11%;
+    left:0%;
+    /* position: absolute; */
+    background-color: #f5f7f8;
+    margin-top: 20px;
+    cursor: pointer;
+    /* opacity: 0; */
+    /* z-index: 5; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* log tool tip */
+ /* Tooltip container */
+ .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 170px;
+    background-color: rgb(240, 236, 236);
+    color: rgb(66, 65, 65);
+    /* text-align: center; */
+    padding: 5px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .domianDiv3 li{
+    list-style: none;
+    /* line-height: 10px; */
+    /* padding: 5px; */
+    font-size: 14px;
+  }
